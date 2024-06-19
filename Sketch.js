@@ -1,8 +1,4 @@
 let cor;
-let circuloX //horizontal
-let circuloY //vertical
-
-
 let posicaoHorizontal; // x
 let posicaoVertical; // y
 
@@ -15,8 +11,7 @@ background(color(100, 0 ,0));
 cor = color(random(255), random(255), random(255));
 circuloX = [0, 0, 0];
 circuloY = [random(height), random(height), random(height)];
-}
- 
+} 
  
   function draw() {
 fill(cor);
